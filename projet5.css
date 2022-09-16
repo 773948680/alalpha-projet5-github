@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border-radius: 2px;
+}
+#div1{
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    
+}
+h1{
+    text-align: center;
+    background-color:  chocolate;
+}
+h2{
+    float: left;
+}
+
+.g{
+    border-collapse: collapse;
+    border-radius: 2px solid black;
+    background-color: rgba(2, 19, 19, 0.754);
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+#t2{
+    border-radius: 1px solid  chocolate;
+}
+button{
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 8px;
+    border: 1px solid chocolate;
+    margin-right: 10px;
+    font-size: 13px;
+}
+#BtnAjouteDep{
+    background-color: yellow;
+    display: flex;margin: auto;
+    float: right;
+    color: #000;
+}
+#BtnAjouteRev{
+    background-color: yellow;
+    color: #000;
+    border-radius: 1px solid black;
+    display: flex;margin: auto;
+    float: right;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 100%;
+    height: 70%;
+    margin: 30px auto;
+}
+tr,th,td{
+    border: 1px solid black;
+}
+
+@media screen and (max-width:1400px){
+    .g{
+        width: 100%;
+        height: 90%;
+        border-radius: 2px;
+        color: rgb(6, 148, 35);
+    }
+}
+@media screen and (max-width: 1400px) {
+    h2{
+        width: 99%;
+    }
+}
